@@ -1,0 +1,207 @@
+groups:
+  player:
+    default: true
+    permissions:
+    - chairs.sit
+    - essentials.signs.use.repair
+    - essentials.signs.create.trade
+    - essentials.signs.use.trade
+    - automessage.receive.regular
+    - factions.join
+    - factions.chat
+    - factions.deinvite
+    - factions.help
+    - factions.tag
+    - factions.invite
+    - factions.kick
+    - factions.leave
+    - factions.list
+    - factions.mod
+    - factions.open
+    - factions.owner
+    - factions.ownerlist
+    - factions.title
+    - friendme.user
+    - essentials.suicide
+    - essentials.hat
+    - essentials.clearinventory
+    - essentials.warp.list
+    - essentials.spawn
+    - essentials.warp
+    - essentials.rules
+    - essentials.motd
+    - essentials.warp
+    - essentials.list
+    - essentials.helpop
+    - essentials.help
+    - essentials.afk
+    - essentials.tpaccept
+    - essentials.tpdeny
+    - essentials.balance
+    - essentials.balancetop
+    - essentials.home
+    - essentials.kit
+    - essentials.kits.starter
+    - essentials.pay
+    - essentials.sethome
+    - essentials.delhome
+    - essentials.mail
+    - essentials.mail.send
+    - essentials.msg
+    - essentials.ignore
+    - essentials.signs.use.buy
+    - essentials.signs.use.sell
+    - essentials.tpa
+    - worldedit.selection.expand
+    - worldedit.selection.hpos
+    - worldedit.selection.pos
+    - worldedit.wand
+    - -authme.unregister
+    - -authme.logout
+    - worldguard.region.flag.regions.*
+    - worldguard.region.claim
+    - worldguard.region.info.*
+    - worldguard.region.addowner.own.*
+    - worldguard.region.removeowner.own.*
+    - worldguard.region.addmember.own.*
+    - worldguard.region.removemember.own.*
+    - worldguard.region.setparent.own.*
+    - worldguard.region.remove.own.*
+    - jobs.join.*
+    - jobs.world.*
+    prefix: '&7[&3Игрок&7]'
+  vip:
+    default: false
+    permissions:
+    - essentials.workbench
+    - essentials.recipe
+    - essentials.fly
+    - essentials.warp.list
+    - essentials.sethome.multiple.vip
+    - essentials.kits.vip
+    - essentials.back.ondeath
+    - essentials.tpahere
+    - essentials.joinfullserver
+    - essentials.msg.color
+    - essentials.chat.color
+    - essentials.enderchest
+    - echopet.pet.*
+    - echopet.pet.type.*
+    - echopet.pet.ride.*
+    - echopet.pet.hat.*
+    prefix: '&6[&eV.i.p&6]'
+    inheritance:
+    - player
+  creative:
+    default: false
+    permissions:
+    - essentials.warp.list
+    - essentials.gamemode
+    - essentials.back.ondeath
+    - essentials.joinfullserver
+    - essentials.msg.color
+    - essentials.chat.color
+    prefix: '&6[&2Креатив&6]'
+    inheritance:
+    - player
+  premium:
+    default: false
+    permissions:
+    - essentials.sethome.multiple.supervip
+    - essentials.tppos
+    - essentials.getpos
+    - essentials.feed
+    - essentials.hat
+    - essentials.heal
+    - essentials.repair
+    - essentials.repair.armor
+    - essentials.repair.enchanted
+    - essentials.back
+    - essentials.kits.premium
+    - essentials.tp
+    - essentials.weather
+    - essentials.ptime
+    - essentials.clearinventory
+    - essentials.heal
+    prefix: '&b[&6Премиум&b]&3'
+    inheritance:
+    - player
+    - vip
+  helper:
+    default: false
+    permission:
+    - essentials.tp
+    - essentials.weather
+    - essentials.sethome.multiple.supervip
+    - essentials.tphere
+    - simplemod.mute.temp
+    - simplemod.unmute
+    - simplemod.kick
+    - essentials.fly
+    - essentials.invsee
+    prefix: '&a[&2Хелпер&a]&a'
+    inheritance:
+    - player
+    - vip
+  moder:
+    default: false
+    permissions:
+    - simplemod.kick
+    - simplemod.mute.temp
+    - simplemod.unmute
+    - simplemod.ban.temp
+    - essentials.broadcast
+    - essentials.clearinventory
+    - essentials.delwarp
+    - essentials.eco.loan
+    - essentials.ext
+    - essentials.getpos
+    - essentials.helpop.recieve
+    - essentials.home.others
+    - essentials.invsee
+    - essentials.jails
+    - essentials.jump
+    - essentials.kill
+    - essentials.nick.others
+    - essentials.realname
+    - essentials.setwarp
+    - essentials.signs.create.*
+    - essentials.signs.break.*
+    - essentials.thunder
+    - essentials.time
+    - essentials.time.set
+    - essentials.protect.alerts
+    - essentials.protect.admin
+    - essentials.protect.ownerinfo
+    - essentials.ptime
+    - essentials.ptime.others
+    - essentials.togglejail
+    - essentials.top
+    - essentials.tp
+    - essentials.tphere
+    - essentials.tppos
+    - essentials.tptoggle
+    - essentials.unban
+    - essentials.unbanip
+    - essentials.weather
+    - essentials.whois
+    - essentials.world
+    - essentials.worlds.*
+    - lagg.check
+    - lagg.killmobs
+    - lagg.clear
+    - worldguard.*
+    - worldedit.*
+    prefix: '&1[&9Модератор&1]&9'
+    inheritance:
+    - player
+    - vip
+    - supervip
+    - premium
+    - creative
+  adminn:
+    default: false
+    permissions:
+    - echopet.pet.*
+    - '*'
+    prefix: '&c[&4Gl.Admin&c]&4'

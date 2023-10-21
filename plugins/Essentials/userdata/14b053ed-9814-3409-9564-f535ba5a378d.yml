@@ -1,0 +1,37 @@
+lastAccountName: ffss
+timestamps:
+  login: 1625506307963
+  logout: 1625506398575
+  lastteleport: 1625000193807
+  kits:
+    premium: 1624911511395
+    test: 1624906670342
+    starter: 1624908663063
+    start: 1624911499149
+    dtools: 1624906490928
+    vip: 1624911171954
+    tools: 1624644828080
+ipAddress: 127.0.0.1
+lastlocation:
+  world: world
+  x: -322.57124068779416
+  y: 64.0
+  z: 99.70773686544892
+  yaw: 266.52094
+  pitch: 14.5526085
+afk: false
+logoutlocation:
+  world: world
+  x: -339.8330745764347
+  y: 63.0
+  z: 99.08843214272719
+  yaw: 267.2796
+  pitch: 17.311398
+homes:
+  home:
+    world: world
+    x: -311.30000001192093
+    y: 81.0
+    z: 27.878339861839166
+    yaw: 34.89865
+    pitch: 15.65612

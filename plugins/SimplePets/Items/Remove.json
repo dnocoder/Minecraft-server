@@ -1,0 +1,7 @@
+{
+  "enabled": true,
+  "item": {
+    "material": "BARRIER",
+    "name": "&4Remove Pet"
+  }
+}

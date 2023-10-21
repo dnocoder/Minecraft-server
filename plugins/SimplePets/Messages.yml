@@ -1,0 +1,42 @@
+prefix: '&eПитомцы &6>>'
+No-Permission: '{prefix} &cУ вас недостаточно прав для этого.'
+Reload-Complete: '{prefix} &7�?нвентарь и файлы были перезагружены успешно.'
+Unknown-commands: '{prefix} &7Неизвестная команда.'
+Player-Not-Found: '{prefix} &7%player% is not Validate.'
+Pet-Not-Purchased: '{prefix} &7вы не можете призвать &c%type% &7потому что вы не купили
+  его.'
+Pet-Remove-Self-Removed: '{prefix} &7ваш питомец был удален.'
+Pet-Remove-Self-No-Pet: '{prefix} &7нет питомца для удаления.'
+Pet-Remove-Other-Remover: '{prefix} &7%player%питомец успешно удален.'
+Pet-Remove-Other-Target: '{prefix} &7%player% удалил вашего питомца.'
+Pet-Remove-Other-No-Pet: '{prefix} &7%player% нет питомца для удаления.'
+Invalid-PetType: '{prefix} &cНеверный вид питомца.'
+No-Pet-Permission: '{prefix} &cУ вас нет прав на использование этого питомца.'
+Select-Pet: '{prefix} &7Вы выбрали питомца &e%pet% .'
+Select-Pet-Other: '{prefix} &7%player% Принудительно выбрал %pet% для вас.'
+Select-Pet-Sender: '{prefix} &7Вы заменили животное игрока %player% на  %pet%'
+Other-No-Pet-Permission: '{prefix} &7%player% не имеет прав на использование этого
+  питомца.'
+Type-Not-Supported: '{prefix} &7этот питомец не поддерживается этой версией.'
+Type-Not-Enabled: '{prefix} &7этот питомец временно недоступен.'
+Pet-Name-Changed: '{prefix} &7имя вашего питомца было изменено на: &r%petname%'
+Menu-Name: '&a&lВыберите питомца:'
+Data-Menu:
+  PetCore-Name: '&a&lсмена данных питомцев'
+  'True': '&etrue'
+  'False': '&efalse'
+No-Spawning: '{prefix} &cв этом регионе нельзя призвать питомца.'
+Pet-No-Enter: '{prefix} &cв этом регионе запрещены питомцы.'
+Pet-RenameViaChat: '{prefix} &7напишите в чат новое имя вашего питомца:'
+Pet-RenameViaChat-Cancel: '{prefix} &cпереименование питомца было отменено'
+Pet-RenameViaAnvil: '{prefix} &7введите новое имя вашего питомца на наковальне, затем
+  нажмите элемент справа после завершения.'
+Pet-RenameFailure: '{prefix} &cк сожалению,это имя питомца не разрешено: &7{name}'
+Player-No-Pet: '{prefix} у игрока &7%player% нет питомца.'
+Anvil-Rename:
+  Name: Rename Pet
+ArmorMenu:
+  ClickToRemove:
+  - '&c '
+  - '&c&lНажми,чтобы удалить'
+  Restricted: '&cУ этого питомца нельзя добавлять или удалять предметы!'

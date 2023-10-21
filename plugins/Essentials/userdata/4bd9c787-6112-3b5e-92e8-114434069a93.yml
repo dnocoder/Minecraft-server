@@ -1,0 +1,30 @@
+lastAccountName: ddss
+timestamps:
+  login: 1625502577284
+  logout: 1625502860696
+  lastteleport: 1624999609647
+ipAddress: 127.0.0.1
+lastlocation:
+  world: world
+  x: -300.8934639537739
+  y: 83.37336372226959
+  z: 96.8716769969248
+  yaw: 210.9972
+  pitch: 19.44942
+logoutlocation:
+  world: world
+  x: -303.6168897098255
+  y: 75.0
+  z: 127.42769820154656
+  yaw: 53.333374
+  pitch: -9.862709
+afk: false
+homes:
+  home:
+    world: world
+    x: -258.90000380094193
+    y: 68.0
+    z: 49.9175144289056
+    yaw: 70.96981
+    pitch: 4.9658165
+godmode: false

@@ -1,0 +1,19 @@
+lastAccountName: dds
+timestamps:
+  login: 1624485193366
+  logout: 1624485202146
+ipAddress: 127.0.0.1
+lastlocation:
+  world: world
+  x: 254.5
+  y: 68.0
+  z: 24.5
+  yaw: 1.7241563
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: 256.5065500925913
+  y: 67.16610926093821
+  z: 18.756377704902494
+  yaw: -6.4141808
+  pitch: 9.517817

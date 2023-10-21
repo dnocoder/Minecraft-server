@@ -1,0 +1,405 @@
+[16:27:11] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[16:27:12] [main/INFO]: Found new data pack file/bukkit, loading it automatically
+[16:27:12] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[16:27:12] [Worker-Main-14/INFO]: Loaded 7 recipes
+[16:27:14] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[16:27:14] [Server thread/INFO]: Loading properties
+[16:27:15] [Server thread/INFO]: This server is running CraftBukkit version 2991-Spigot-018b9a0-f3f3094 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
+[16:27:15] [Server thread/INFO]: Debug logging is disabled
+[16:27:15] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:27:15] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:27:15] [Server thread/INFO]: Default game type: SURVIVAL
+[16:27:15] [Server thread/INFO]: Generating keypair
+[16:27:15] [Server thread/INFO]: Starting Minecraft server on localhost:9726
+[16:27:15] [Server thread/INFO]: Using default channel type
+[16:27:17] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[16:27:20] [Server thread/WARN]: Legacy plugin PermissionsEx v1.23.5 does not specify an api-version.
+[16:27:20] [Server thread/WARN]: Legacy plugin ChestCommands v3.1.4 does not specify an api-version.
+[16:27:20] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.2.2
+[16:27:20] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.5
+[16:27:20] [Server thread/WARN]: [PermissionsEx] This server is in offline mode. Unless this server is configured to integrate with a supported proxy (see http://dft.ba/-8ous), UUIDs *may not be stable*!
+[16:27:20] [Server thread/INFO]: [ANM] Loading AdvancedNMotd v9.1.1
+[16:27:20] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v2.4.6
+[16:27:20] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[16:27:20] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.5+57d5ac9
+[16:27:20] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@3ca7c5dd]
+[16:27:20] [Server thread/INFO]: [ChestCommands] Loading ChestCommands v3.1.4
+[16:27:20] [Server thread/INFO]: [Essentials] Loading Essentials v2.18.2.0
+[16:27:20] [Server thread/INFO]: [EssentialsProtect] Loading EssentialsProtect v2.18.2.0
+[16:27:20] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.18.2.0
+[16:27:20] [Server thread/INFO]: [EssentialsGeoIP] Loading EssentialsGeoIP v2.18.2.0
+[16:27:20] [Server thread/INFO]: [EssentialsAntiBuild] Loading EssentialsAntiBuild v2.18.2.0
+[16:27:20] [Server thread/INFO]: [TAB] Loading TAB v2.9.1
+[16:27:20] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.18.2.0
+[16:27:20] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.5+3827266
+[16:27:20] [Server thread/INFO]: [SimplePets] Loading SimplePets v4.4 (build 70)
+[16:27:20] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[16:27:20] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.18.2.0 which is not a depend, softdepend or loadbefore of this plugin.
+[16:27:20] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[16:27:20] [Server thread/WARN]: [Vault] Loaded class ru.tehkode.permissions.bukkit.PermissionsEx from PermissionsEx v1.23.5 which is not a depend, softdepend or loadbefore of this plugin.
+[16:27:20] [Server thread/INFO]: [Vault] [Permission] PermissionsEx found: Waiting
+[16:27:20] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[16:27:20] [Server thread/INFO]: [Vault] [Chat] PermissionsEx found: Waiting
+[16:27:20] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[16:27:20] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.5+57d5ac9
+[16:27:21] [Server thread/WARN]: [WorldEdit] Loaded class ru.tehkode.permissions.PermissionManager from PermissionsEx v1.23.5 which is not a depend, softdepend or loadbefore of this plugin.
+[16:27:21] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[16:27:21] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_16_R3 as the Bukkit adapter
+[16:27:22] [Server thread/INFO]: [WorldEdit] ====================================================
+[16:27:22] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+[16:27:22] [Server thread/INFO]: [WorldEdit]  as your server software. 
+[16:27:22] [Server thread/INFO]: [WorldEdit]   
+[16:27:22] [Server thread/INFO]: [WorldEdit]  Paper offers significant performance improvements,
+[16:27:22] [Server thread/INFO]: [WorldEdit]  bug fixes, security enhancements and optional
+[16:27:22] [Server thread/INFO]: [WorldEdit]  features for server owners to enhance their server.
+[16:27:22] [Server thread/INFO]: [WorldEdit]   
+[16:27:22] [Server thread/INFO]: [WorldEdit]  Paper includes Timings v2, which is significantly
+[16:27:22] [Server thread/INFO]: [WorldEdit]  better at diagnosing lag problems over v1.
+[16:27:22] [Server thread/INFO]: [WorldEdit]   
+[16:27:22] [Server thread/INFO]: [WorldEdit]  All of your plugins should still work, and the
+[16:27:22] [Server thread/INFO]: [WorldEdit]  Paper community will gladly help you fix any issues.
+[16:27:22] [Server thread/INFO]: [WorldEdit]   
+[16:27:22] [Server thread/INFO]: [WorldEdit]  Join the Paper Community @ https://papermc.io
+[16:27:22] [Server thread/INFO]: [WorldEdit] ====================================================
+[16:27:22] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:27:22] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:27:22] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:27:22] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:27:22] [Server thread/INFO]: Preparing level "world1"
+[16:27:22] [Server thread/INFO]: -------- World Settings For [world1] --------
+[16:27:22] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:27:22] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:27:22] [Server thread/INFO]: View Distance: 10
+[16:27:22] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:27:22] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:27:22] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:27:22] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:27:22] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[16:27:22] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:27:22] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:27:22] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:27:22] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:27:22] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:27:22] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:27:22] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:27:22] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[16:27:22] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[16:27:22] [Server thread/INFO]: Potato Growth Modifier: 100%
+[16:27:22] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:27:22] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:27:22] [Server thread/INFO]: Vine Growth Modifier: 100%
+[16:27:22] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[16:27:22] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[16:27:22] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[16:27:22] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[16:27:22] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[16:27:22] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[16:27:22] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[16:27:22] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:27:22] [Server thread/INFO]: Max TNT Explosions: 100
+[16:27:22] [Server thread/INFO]: Mob Spawn Range: 6
+[16:27:22] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[16:27:22] [Server thread/INFO]: ---- Migration of old nether folder required ----
+[16:27:22] [Server thread/INFO]: Unfortunately due to the way that Minecraft implemented multiworld support in 1.6, Bukkit requires that you move your nether folder to a new location in order to operate correctly.
+[16:27:22] [Server thread/INFO]: We will move this folder for you, but it will mean that you need to move it back should you wish to stop using Bukkit in the future.
+[16:27:22] [Server thread/INFO]: Attempting to move world1\DIM-1 to world1_nether\DIM-1...
+[16:27:22] [Server thread/INFO]: Success! To restore nether in the future, simply move world1_nether\DIM-1 to world1\DIM-1
+[16:27:22] [Server thread/INFO]: ---- Migration of old nether folder complete ----
+[16:27:22] [Server thread/INFO]: -------- World Settings For [world1_nether] --------
+[16:27:22] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:27:22] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:27:22] [Server thread/INFO]: View Distance: 10
+[16:27:22] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:27:22] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:27:22] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:27:22] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:27:22] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[16:27:22] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:27:22] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:27:22] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:27:22] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:27:22] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:27:22] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:27:22] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:27:22] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[16:27:22] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[16:27:22] [Server thread/INFO]: Potato Growth Modifier: 100%
+[16:27:22] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:27:22] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:27:22] [Server thread/INFO]: Vine Growth Modifier: 100%
+[16:27:22] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[16:27:22] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[16:27:22] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[16:27:22] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[16:27:22] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[16:27:22] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[16:27:22] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[16:27:22] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:27:22] [Server thread/INFO]: Max TNT Explosions: 100
+[16:27:22] [Server thread/INFO]: Mob Spawn Range: 6
+[16:27:22] [Server thread/INFO]: ---- Migration of old the_end folder required ----
+[16:27:22] [Server thread/INFO]: Unfortunately due to the way that Minecraft implemented multiworld support in 1.6, Bukkit requires that you move your the_end folder to a new location in order to operate correctly.
+[16:27:22] [Server thread/INFO]: We will move this folder for you, but it will mean that you need to move it back should you wish to stop using Bukkit in the future.
+[16:27:22] [Server thread/INFO]: Attempting to move world1\DIM1 to world1_the_end\DIM1...
+[16:27:22] [Server thread/INFO]: Success! To restore the_end in the future, simply move world1_the_end\DIM1 to world1\DIM1
+[16:27:22] [Server thread/INFO]: ---- Migration of old the_end folder complete ----
+[16:27:22] [Server thread/INFO]: -------- World Settings For [world1_the_end] --------
+[16:27:22] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:27:22] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:27:22] [Server thread/INFO]: View Distance: 10
+[16:27:22] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:27:22] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:27:22] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:27:22] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:27:22] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[16:27:22] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:27:22] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:27:22] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:27:22] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:27:22] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:27:22] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:27:22] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:27:22] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[16:27:22] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[16:27:22] [Server thread/INFO]: Potato Growth Modifier: 100%
+[16:27:22] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:27:22] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:27:22] [Server thread/INFO]: Vine Growth Modifier: 100%
+[16:27:22] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[16:27:22] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[16:27:22] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[16:27:22] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[16:27:22] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[16:27:22] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[16:27:22] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[16:27:22] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:27:22] [Server thread/INFO]: Max TNT Explosions: 100
+[16:27:22] [Server thread/INFO]: Mob Spawn Range: 6
+[16:27:22] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:27:25] [Server thread/INFO]: Preparing spawn area: 0%
+[16:27:25] [Server thread/INFO]: Preparing spawn area: 0%
+[16:27:25] [Server thread/INFO]: Preparing spawn area: 0%
+[16:27:25] [Server thread/INFO]: Preparing spawn area: 0%
+[16:27:25] [Server thread/INFO]: Preparing spawn area: 0%
+[16:27:25] [Server thread/INFO]: Preparing spawn area: 0%
+[16:27:25] [Server thread/INFO]: Time elapsed: 3044 ms
+[16:27:25] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[16:27:25] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[16:27:26] [Worker-Main-15/INFO]: Preparing spawn area: 0%
+[16:27:26] [Worker-Main-15/INFO]: Preparing spawn area: 3%
+[16:27:27] [Worker-Main-9/INFO]: Preparing spawn area: 12%
+[16:27:27] [Worker-Main-9/INFO]: Preparing spawn area: 17%
+[16:27:28] [Worker-Main-15/INFO]: Preparing spawn area: 25%
+[16:27:28] [Worker-Main-16/INFO]: Preparing spawn area: 44%
+[16:27:29] [Worker-Main-11/INFO]: Preparing spawn area: 58%
+[16:27:29] [Worker-Main-20/INFO]: Preparing spawn area: 73%
+[16:27:30] [Worker-Main-11/INFO]: Preparing spawn area: 83%
+[16:27:30] [Server thread/INFO]: Time elapsed: 4941 ms
+[16:27:30] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[16:27:30] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[16:27:31] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[16:27:31] [Worker-Main-8/INFO]: Preparing spawn area: 5%
+[16:27:32] [Worker-Main-11/INFO]: Preparing spawn area: 12%
+[16:27:32] [Worker-Main-13/INFO]: Preparing spawn area: 20%
+[16:27:33] [Worker-Main-13/INFO]: Preparing spawn area: 29%
+[16:27:33] [Worker-Main-16/INFO]: Preparing spawn area: 38%
+[16:27:34] [Worker-Main-8/INFO]: Preparing spawn area: 47%
+[16:27:34] [Worker-Main-15/INFO]: Preparing spawn area: 58%
+[16:27:35] [Worker-Main-8/INFO]: Preparing spawn area: 68%
+[16:27:35] [Worker-Main-16/INFO]: Preparing spawn area: 74%
+[16:27:37] [Worker-Main-13/INFO]: Preparing spawn area: 77%
+[16:27:37] [Worker-Main-9/INFO]: Preparing spawn area: 77%
+[16:27:37] [Worker-Main-15/INFO]: Preparing spawn area: 85%
+[16:27:37] [Worker-Main-11/INFO]: Preparing spawn area: 96%
+[16:27:37] [Server thread/INFO]: Time elapsed: 7126 ms
+[16:27:37] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[16:27:37] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[16:27:37] [Server thread/INFO]: [ClearLag] Loading modules...
+[16:27:37] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[16:27:37] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[16:27:37] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[16:27:37] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.5
+[16:27:37] [Thread-14/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.16]...
+[16:27:37] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[16:27:37] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[16:27:37] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[16:27:37] [Server thread/INFO]: [Vault][Permission] PermissionsEx hooked.
+[16:27:37] [Server thread/INFO]: [Vault] [Vault][Chat] PermissionsEx_Chat hooked.
+[16:27:37] [Server thread/INFO]: [ANM] Enabling AdvancedNMotd v9.1.1
+[16:27:37] [Server thread/INFO]: [m
+[16:27:37] [Server thread/INFO]: [0;37;22m------------- [0;37;1mAdvanced[0;37;22mNMotd[0;37;1m Updater[0;37;22m -----------[m
+[16:27:37] [Server thread/INFO]: [0;31;1mUpdate checking is disabled. You can enable it in config.yml[m
+[16:27:37] [Server thread/INFO]: [0;37;22m-----------------------------------------------[m
+[16:27:37] [Server thread/INFO]: [m
+[16:27:37] [Server thread/INFO]: [m
+[16:27:37] [Server thread/INFO]: [0;33;1m---------------- [0;37;1mAdvanced[0;37;22mNMotd[0;33;1m --------------[m
+[16:27:37] [Server thread/INFO]: [0;32;1m           AdvancedNMotd is enabled![m
+[16:27:37] [Server thread/INFO]: [0;33;1m---------------------------------------------[m
+[16:27:37] [Server thread/INFO]: [m
+[16:27:37] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v2.4.6
+[16:27:38] [Server thread/INFO]: [ChestCommands] Enabling ChestCommands v3.1.4
+[16:27:38] [Server thread/INFO]: [Essentials] Enabling Essentials v2.18.2.0
+[16:27:38] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[16:27:38] [Thread-15/WARN]: [PermissionsEx] The updater could not find any files for the project id 31279
+[16:27:38] [Server thread/INFO]: Loaded 25599 items from items.json.
+[16:27:38] [Thread-14/INFO]: [ClearLag] No updates found!
+[16:27:38] [Server thread/INFO]: Using locale ru_RU
+[16:27:38] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[16:27:38] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[16:27:38] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[16:27:38] [Server thread/INFO]: [Essentials] Using Vault based permissions (PermissionsEx)
+[16:27:38] [Server thread/INFO]: [EssentialsProtect] Enabling EssentialsProtect v2.18.2.0
+[16:27:38] [Server thread/INFO]: [EssentialsProtect] Continuing to enable Protect.
+[16:27:38] [Server thread/INFO]: [EssentialsProtect] Starting Metrics. Opt-out using the global bStats config.
+[16:27:38] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.18.2.0
+[16:27:38] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[16:27:38] [Server thread/INFO]: [EssentialsGeoIP] Enabling EssentialsGeoIP v2.18.2.0
+[16:27:38] [Server thread/ERROR]: Ключ лицензии не найден! Инструкцию по настройке вы можете найти на сайте https://essentialsx.cf/geoip.
+[16:27:38] [Server thread/ERROR]: Ошибка при чтении базы данных GeoIP!
+java.io.FileNotFoundException: plugins\EssentialsGeoIP\GeoIP2-Country.mmdb (Не удается найти указанный файл)
+	at java.io.RandomAccessFile.open0(Native Method) ~[?:1.8.0_51]
+	at java.io.RandomAccessFile.open(Unknown Source) ~[?:1.8.0_51]
+	at java.io.RandomAccessFile.<init>(Unknown Source) ~[?:1.8.0_51]
+	at com.maxmind.db.BufferHolder.<init>(BufferHolder.java:19) ~[EssentialsXGeoIP-2.18.2.0.jar:?]
+	at com.maxmind.db.Reader.<init>(Reader.java:116) ~[EssentialsXGeoIP-2.18.2.0.jar:?]
+	at com.maxmind.geoip2.DatabaseReader.<init>(DatabaseReader.java:66) ~[EssentialsXGeoIP-2.18.2.0.jar:?]
+	at com.maxmind.geoip2.DatabaseReader.<init>(DatabaseReader.java:54) ~[EssentialsXGeoIP-2.18.2.0.jar:?]
+	at com.maxmind.geoip2.DatabaseReader$Builder.build(DatabaseReader.java:160) ~[EssentialsXGeoIP-2.18.2.0.jar:?]
+	at com.earth2me.essentials.geoip.EssentialsGeoIPPlayerListener.reloadConfig(EssentialsGeoIPPlayerListener.java:175) [EssentialsXGeoIP-2.18.2.0.jar:?]
+	at com.earth2me.essentials.geoip.EssentialsGeoIPPlayerListener.<init>(EssentialsGeoIPPlayerListener.java:52) [EssentialsXGeoIP-2.18.2.0.jar:?]
+	at com.earth2me.essentials.geoip.EssentialsGeoIP.onEnable(EssentialsGeoIP.java:31) [EssentialsXGeoIP-2.18.2.0.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263) [spigot.jar:2991-Spigot-018b9a0-f3f3094]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:351) [spigot.jar:2991-Spigot-018b9a0-f3f3094]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480) [spigot.jar:2991-Spigot-018b9a0-f3f3094]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.enablePlugin(CraftServer.java:494) [spigot.jar:2991-Spigot-018b9a0-f3f3094]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.enablePlugins(CraftServer.java:408) [spigot.jar:2991-Spigot-018b9a0-f3f3094]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.loadWorld(MinecraftServer.java:435) [spigot.jar:2991-Spigot-018b9a0-f3f3094]
+	at net.minecraft.server.v1_16_R3.DedicatedServer.init(DedicatedServer.java:218) [spigot.jar:2991-Spigot-018b9a0-f3f3094]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:809) [spigot.jar:2991-Spigot-018b9a0-f3f3094]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$0(MinecraftServer.java:164) [spigot.jar:2991-Spigot-018b9a0-f3f3094]
+	at net.minecraft.server.v1_16_R3.MinecraftServer$$Lambda$3283/114571178.run(Unknown Source) [spigot.jar:2991-Spigot-018b9a0-f3f3094]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_51]
+[16:27:38] [Server thread/INFO]: [EssentialsGeoIP] This product includes GeoLite2 data created by MaxMind, available from http://www.maxmind.com/.
+[16:27:38] [Server thread/INFO]: [EssentialsGeoIP] Starting Metrics. Opt-out using the global bStats config.
+[16:27:38] [Server thread/INFO]: [EssentialsAntiBuild] Enabling EssentialsAntiBuild v2.18.2.0
+[16:27:38] [Server thread/INFO]: [EssentialsAntiBuild] Starting Metrics. Opt-out using the global bStats config.
+[16:27:38] [Server thread/INFO]: [TAB] Enabling TAB v2.9.1
+[16:27:38] [Server thread/INFO]: [0;37;22m[TAB] Server version: 1.16.5 (v1_16_R3)[m
+[16:27:38] [Server thread/INFO]: [0;31;1m[TAB] File [0;33;1mplugins\TAB\errors.log[0;31;1m exists and is not empty. Take a look at the error messages and try to resolve them. After you do, delete the file.[m
+[16:27:38] [Server thread/INFO]: [0;33;1m[TAB] There was 1 startup warning.[m
+[16:27:38] [Server thread/INFO]: [0;32;1m[TAB] Enabled in 70ms[m
+[16:27:38] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.18.2.0
+[16:27:38] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[16:27:38] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.5+3827266
+[16:27:38] [Server thread/INFO]: [WorldGuard] Default configuration file written: config_world.yml
+[16:27:38] [Server thread/INFO]: [WorldGuard] Default configuration file written: blacklist.txt
+[16:27:38] [Server thread/INFO]: [WorldGuard] (world1) TNT ignition is PERMITTED.
+[16:27:38] [Server thread/INFO]: [WorldGuard] (world1) Lighters are PERMITTED.
+[16:27:38] [Server thread/INFO]: [WorldGuard] (world1) Lava fire is PERMITTED.
+[16:27:38] [Server thread/INFO]: [WorldGuard] (world1) Fire spread is UNRESTRICTED.
+[16:27:38] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world1'
+[16:27:38] [Server thread/INFO]: [WorldGuard] Default configuration file written: config_world.yml
+[16:27:38] [Server thread/INFO]: [WorldGuard] Default configuration file written: blacklist.txt
+[16:27:38] [Server thread/INFO]: [WorldGuard] (world1_nether) TNT ignition is PERMITTED.
+[16:27:38] [Server thread/INFO]: [WorldGuard] (world1_nether) Lighters are PERMITTED.
+[16:27:38] [Server thread/INFO]: [WorldGuard] (world1_nether) Lava fire is PERMITTED.
+[16:27:38] [Server thread/INFO]: [WorldGuard] (world1_nether) Fire spread is UNRESTRICTED.
+[16:27:38] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world1_nether'
+[16:27:38] [Server thread/INFO]: [WorldGuard] Default configuration file written: config_world.yml
+[16:27:38] [Server thread/INFO]: [WorldGuard] Default configuration file written: blacklist.txt
+[16:27:38] [Server thread/INFO]: [WorldGuard] (world1_the_end) TNT ignition is PERMITTED.
+[16:27:38] [Server thread/INFO]: [WorldGuard] (world1_the_end) Lighters are PERMITTED.
+[16:27:38] [Server thread/INFO]: [WorldGuard] (world1_the_end) Lava fire is PERMITTED.
+[16:27:38] [Server thread/INFO]: [WorldGuard] (world1_the_end) Fire spread is UNRESTRICTED.
+[16:27:38] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world1_the_end'
+[16:27:38] [Server thread/INFO]: [WorldGuard] Loading region data...
+[16:27:38] [Server thread/INFO]: [SimplePets] Enabling SimplePets v4.4 (build 70)
+[16:27:38] [Thread-16/INFO]: [0;32;1m[TAB] Version 2.9.2 is out! Your version: 2.9.1[m
+[16:27:38] [Thread-16/INFO]: [0;32;1m[TAB] Get the update at https://www.spigotmc.org/resources/57806/[m
+[16:27:40] [Server thread/ERROR]: [SimplePets] Plugin SimplePets v4.4 (build 70) has failed to register events for class simplepets.brainsynder.listeners.PaperListeners because io/papermc/paper/event/player/PlayerNameEntityEvent does not exist.
+[16:27:40] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:27:40] [Server thread/INFO]: Done (18.908s)! For help, type "help"
+[16:27:40] [Server thread/INFO]: Starting remote control listener
+[16:27:40] [Server thread/WARN]: Unable to initialise RCON on localhost:9726
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method) ~[?:1.8.0_51]
+	at java.net.DualStackPlainSocketImpl.socketBind(Unknown Source) ~[?:1.8.0_51]
+	at java.net.AbstractPlainSocketImpl.bind(Unknown Source) ~[?:1.8.0_51]
+	at java.net.PlainSocketImpl.bind(Unknown Source) ~[?:1.8.0_51]
+	at java.net.ServerSocket.bind(Unknown Source) ~[?:1.8.0_51]
+	at java.net.ServerSocket.<init>(Unknown Source) ~[?:1.8.0_51]
+	at net.minecraft.server.v1_16_R3.RemoteControlListener.a(SourceFile:85) [spigot.jar:2991-Spigot-018b9a0-f3f3094]
+	at net.minecraft.server.v1_16_R3.DedicatedServer.init(DedicatedServer.java:234) [spigot.jar:2991-Spigot-018b9a0-f3f3094]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:809) [spigot.jar:2991-Spigot-018b9a0-f3f3094]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$0(MinecraftServer.java:164) [spigot.jar:2991-Spigot-018b9a0-f3f3094]
+	at net.minecraft.server.v1_16_R3.MinecraftServer$$Lambda$3283/114571178.run(Unknown Source) [spigot.jar:2991-Spigot-018b9a0-f3f3094]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_51]
+[16:27:40] [Server thread/WARN]: [HolographicDisplays] Hologram 'dich' was in the world 'world' but it wasn't loaded.
+[16:27:40] [Server thread/WARN]: [HolographicDisplays] Hologram 'dichh' was in the world 'world' but it wasn't loaded.
+[16:27:40] [Server thread/WARN]: [HolographicDisplays] Hologram 'dichhh' was in the world 'world' but it wasn't loaded.
+[16:27:40] [Server thread/WARN]: [HolographicDisplays] Hologram 'dihhh' was in the world 'world' but it wasn't loaded.
+[16:27:40] [Server thread/WARN]: [HolographicDisplays] Hologram 'dihh' was in the world 'world' but it wasn't loaded.
+[16:27:50] [User Authenticator #1/INFO]: UUID of player Kirill is 9aa28954-fc50-3e3b-a951-b53c7926f9ad
+[16:27:52] [Server thread/INFO]: Kirill[/127.0.0.1:64797] logged in with entity id 33 at ([world1]-825.5, 5.0, -775.5)
+[16:27:52] [Server thread/INFO]: [0;32;1m[0;33;22m[[0;32;22mКреатив[0;33;22m][0;31;22mKirill[m зашел на сервер![m
+[16:27:52] [Server thread/WARN]: §4Ошибка при телепорте нового игрока!
+java.lang.Exception: §4Дыра в полу (Некуда встать).
+	at com.earth2me.essentials.utils.LocationUtil.getSafeDestination(LocationUtil.java:243) ~[EssentialsX-2.18.2.0.jar:?]
+	at com.earth2me.essentials.utils.LocationUtil.getSafeDestination(LocationUtil.java:188) ~[EssentialsX-2.18.2.0.jar:?]
+	at com.earth2me.essentials.AsyncTeleport.lambda$nowAsync$3(AsyncTeleport.java:189) [EssentialsX-2.18.2.0.jar:?]
+	at com.earth2me.essentials.AsyncTeleport$$Lambda$4984/891785780.accept(Unknown Source) [EssentialsX-2.18.2.0.jar:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) [?:1.8.0_51]
+	at java.util.concurrent.CompletableFuture.uniAcceptStage(Unknown Source) [?:1.8.0_51]
+	at java.util.concurrent.CompletableFuture.thenAccept(Unknown Source) [?:1.8.0_51]
+	at com.earth2me.essentials.AsyncTeleport.nowAsync(AsyncTeleport.java:179) [EssentialsX-2.18.2.0.jar:?]
+	at com.earth2me.essentials.AsyncTeleport.now(AsyncTeleport.java:119) [EssentialsX-2.18.2.0.jar:?]
+	at com.earth2me.essentials.spawn.EssentialsSpawnPlayerListener$NewPlayerTeleport.run(EssentialsSpawnPlayerListener.java:149) [EssentialsXSpawn-2.18.2.0.jar:?]
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81) [spigot.jar:2991-Spigot-018b9a0-f3f3094]
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:400) [spigot.jar:2991-Spigot-018b9a0-f3f3094]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.b(MinecraftServer.java:1060) [spigot.jar:2991-Spigot-018b9a0-f3f3094]
+	at net.minecraft.server.v1_16_R3.DedicatedServer.b(DedicatedServer.java:355) [spigot.jar:2991-Spigot-018b9a0-f3f3094]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.a(MinecraftServer.java:1008) [spigot.jar:2991-Spigot-018b9a0-f3f3094]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:847) [spigot.jar:2991-Spigot-018b9a0-f3f3094]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$0(MinecraftServer.java:164) [spigot.jar:2991-Spigot-018b9a0-f3f3094]
+	at net.minecraft.server.v1_16_R3.MinecraftServer$$Lambda$3283/114571178.run(Unknown Source) [spigot.jar:2991-Spigot-018b9a0-f3f3094]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_51]
+[16:27:52] [Server thread/INFO]: Kirill has made the advancement [Getting an Upgrade]
+[16:28:22] [Server thread/INFO]: Kirill issued server command: /tp 0 0 0
+[16:28:57] [Server thread/INFO]: Kirill has made the advancement [We Need to Go Deeper]
+[16:29:49] [Server thread/INFO]: Stopping the server
+[16:29:49] [Server thread/INFO]: Stopping server
+[16:29:49] [Server thread/INFO]: [SimplePets] Disabling SimplePets v4.4 (build 70)
+[16:29:49] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.5+3827266
+[16:29:49] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[16:29:49] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.18.2.0
+[16:29:49] [Server thread/INFO]: [TAB] Disabling TAB v2.9.1
+[16:29:49] [Server thread/INFO]: [0;32;1m[TAB] Disabled in 1ms[m
+[16:29:49] [Server thread/INFO]: [EssentialsAntiBuild] Disabling EssentialsAntiBuild v2.18.2.0
+[16:29:49] [Server thread/INFO]: [EssentialsGeoIP] Disabling EssentialsGeoIP v2.18.2.0
+[16:29:49] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.18.2.0
+[16:29:49] [Server thread/INFO]: [EssentialsProtect] Disabling EssentialsProtect v2.18.2.0
+[16:29:49] [Server thread/INFO]: [Essentials] Disabling Essentials v2.18.2.0
+[16:29:49] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[16:29:49] [Server thread/INFO]: [ChestCommands] Disabling ChestCommands v3.1.4
+[16:29:49] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.5+57d5ac9
+[16:29:49] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[16:29:49] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[16:29:49] [Server thread/INFO]: [HolographicDisplays] Disabling HolographicDisplays v2.4.6
+[16:29:49] [Server thread/INFO]: [ANM] Disabling AdvancedNMotd v9.1.1
+[16:29:49] [Server thread/INFO]: [0;31;1mAdvancedNMotd is disabled![m
+[16:29:49] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v1.23.5
+[16:29:49] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
+[16:29:49] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
+[16:29:49] [Server thread/INFO]: Saving players
+[16:29:49] [Server thread/INFO]: Kirill lost connection: Server closed
+[16:29:49] [Server thread/INFO]: Kirill left the game
+[16:29:49] [Server thread/INFO]: Saving worlds
+[16:29:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world1]'/minecraft:overworld
+[16:29:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (world1): All chunks are saved
+[16:29:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world1_nether]'/minecraft:the_nether
+[16:29:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:29:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world1_the_end]'/minecraft:the_end
+[16:29:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:29:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (world1): All chunks are saved
+[16:29:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:29:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved

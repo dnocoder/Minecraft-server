@@ -1,0 +1,20 @@
+dich:
+  location: world, 113.479, 70.200, 457.776
+  lines:
+  - text
+dichh:
+  location: world, 107.123, 70.200, 456.368
+  lines:
+  - Artyr lox
+dichhh:
+  location: world, 105.251, 70.200, 456.204
+  lines:
+  - Артур лох
+dihhh:
+  location: world, 88.408, 70.200, 477.085
+  lines:
+  - '&bАртур лох'
+dihh:
+  location: world, 83.995, 70.200, 478.948
+  lines:
+  - '&bАртур лошара'

@@ -1,0 +1,23 @@
+lastAccountName: Kirill
+timestamps:
+  login: 1660483672635
+  logout: 1660483789678
+  kits:
+    start: 1660434357360
+    vip: 1660434597214
+ipAddress: 127.0.0.1
+lastlocation:
+  world: world1
+  x: 149.17523822386036
+  y: 68.0
+  z: 111.66320472026302
+  yaw: 185.02559
+  pitch: 19.950472
+logoutlocation:
+  world: world
+  x: -334.33012946941
+  y: 64.0
+  z: 87.87110535178152
+  yaw: 76.79947
+  pitch: 2.9999142
+money: '100'

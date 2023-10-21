@@ -1,0 +1,19 @@
+prefix: '&eПитомцы &6>>'
+Info:
+  Pet-Data-Header: '{prefix} &7%player%''s Pet Data:'
+  Pet-Data-Values: '&7- &e%key%&6: &r%value%'
+  Excluded-Data-Values: []
+Help:
+  Header: '&6&m-------&e Команды взаимодействия с питомцами &6&m-------'
+List:
+  List-Display: '&eСписок питомцев &6(&7%size%&6)&e: %list%'
+  List-Pet-Not-Supported:
+  - '&cПитомец не поддерживается'
+  - '&cВ текущей версии.'
+Modify:
+  Invalid-JSON: '{prefix} &cInvalid JSON has been entered.'
+  Invalid-JSON-Error-Player: '{prefix} &cОшибка: %error%'
+  Pet-Modified: '{prefix} &7You have changed &c%player%''s &7Pet Data.'
+Inv:
+  No-Pet-Items: '{prefix} &7Нет предметов в инвентаре животного.'
+  No-Pet-Items-Other: '{prefix} &7нет сохраненных предметов %player%.'

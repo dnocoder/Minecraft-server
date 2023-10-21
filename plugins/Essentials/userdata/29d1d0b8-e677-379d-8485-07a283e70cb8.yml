@@ -1,0 +1,32 @@
+lastAccountName: Jopaaa
+timestamps:
+  login: 1626819961408
+  logout: 1626820279232
+  lastteleport: 1626820072224
+  kits:
+    start: 1626820011906
+ipAddress: 127.0.0.1
+logoutlocation:
+  world: world
+  x: -265.4404082700393
+  y: 68.0
+  z: 51.26032977376727
+  yaw: 87.93639
+  pitch: 16.000973
+lastlocation:
+  world: world
+  x: -275.6374404825701
+  y: 8.0
+  z: 54.69999998807907
+  yaw: 57.037933
+  pitch: 80.142815
+afk: false
+godmode: false
+homes:
+  home:
+    world: world
+    x: -265.16632160428804
+    y: 68.0
+    z: 52.987933122850116
+    yaw: 85.86728
+    pitch: 16.828606

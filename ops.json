@@ -1,0 +1,20 @@
+[
+  {
+    "uuid": "4bd9c787-6112-3b5e-92e8-114434069a93",
+    "name": "ddss",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "9aa28954-fc50-3e3b-a951-b53c7926f9ad",
+    "name": "Kirill",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "08ac297b-43e2-3e87-8835-aead52889888",
+    "name": "Jopaa",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

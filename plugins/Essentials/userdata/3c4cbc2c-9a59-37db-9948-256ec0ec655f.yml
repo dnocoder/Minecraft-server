@@ -1,0 +1,19 @@
+lastAccountName: ddd
+timestamps:
+  login: 1624485145989
+  logout: 1624485160953
+ipAddress: 127.0.0.1
+lastlocation:
+  world: world
+  x: 253.5
+  y: 64.0
+  z: 9.5
+  yaw: 2.3521867
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: 257.06927521626034
+  y: 69.0
+  z: 35.99014606264745
+  yaw: 47.451168
+  pitch: 4.9658165
