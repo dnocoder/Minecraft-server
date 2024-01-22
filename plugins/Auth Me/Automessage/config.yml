@@ -1,0 +1,17 @@
+timer: 10
+Random: false
+UseTellRawMessages: false
+Messages:
+- '&eThis is default message 1, Please change this in &cconfig.yml'
+- '&cThis is default message 2, You can change this in &cconfig.yml'
+- '&fThis is default message 3, You can change this in &cconfig.yml'
+- '&bThis is default message 4, You can change this in &cconfig.yml'
+- '&6This is default message 5, You can change this in &cconfig.yml'
+- '&7This is default message 6, You can change this in &cconfig.yml'
+TellRawMessages:
+- '{"text":"[Get more info on TellRaws here: minecraft.tools/en/tellraw.php ]","color":"dark_purple"}'
+- '{"text":"[This is a test message!] ","color":"aqua"}'
+- '["",{"text":"Click me to open URL!","color":"red","bold":true,"underlined":false,"clickEvent":{"action":"open_url","value":"https://www.google.com"}}]'
+- '{"text":"Hover over me for help text!","color":"yellow","bold":true,"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"I
+  am a hint!","color":"yellow","bold":true}]}}}'
+- '{"text":"Click me to run help command!","color":"yellow","bold":true,"clickEvent":{"action":"run_command","value":"/help"}}'
